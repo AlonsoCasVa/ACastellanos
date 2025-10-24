@@ -74,3 +74,102 @@ body {
   margin-bottom: 8px;
   color: #555;
 }
+/* Estilos para redes sociales */
+.social-links {
+  margin-top: 20px;
+}
+.social-links a {
+  display: inline-block;
+  font-size: 28px;
+  color: #333;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.social-links a:hover {
+  color: #007bff;
+}
+
+/* Estilos para lista de repos */
+.repo-list {
+  list-style: none;
+  padding-left: 0;
+}
+.repo-list li {
+  margin-bottom: 12px;
+  padding-left: 20px;
+  position: relative;
+}
+.repo-list li::before {
+  content: "📁";
+  position: absolute;
+  left: 0;
+}
+.repo-list a {
+  color: #007bff;
+  text-decoration: none;
+}
+.repo-list a:hover {
+  text-decoration: underline;
+}
+.contact {
+  text-align: center; /* Centra todo el texto e íconos dentro */
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto; /* Centra la sección misma en la página */
+}
+/* Estilo común para secciones con fondo blanco (como stats y projects) */
+.stats,
+.projects {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 30px 20px;
+  margin: 40px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+/* Estilos específicos para proyectos */
+.projects h3 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #818E59;
+}
+
+.repo-list {
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+.repo-list li {
+  margin-bottom: 14px;
+  padding-left: 28px;
+  position: relative;
+  text-align: left;
+}
+
+.repo-list li::before {
+  content: "📁";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.repo-list a {
+  color: #818E59;
+  text-decoration: none;
+}
+
+.repo-list a:hover {
+  text-decoration: underline;
+}
+
+.projects p {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #555;
+}
